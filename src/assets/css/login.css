@@ -1,0 +1,50 @@
+/*logincss*/
+.loginBg { width: 100%; height: 100vh; position: relative; margin: 0 auto;background: url("../images/login/logBgImg.jpg");background-size: 100% 100%;background-repeat: no-repeat;}
+.loginBg .content { width: 1200px;  margin:0 auto;  }
+.loginBox {
+  /*width: 400px; */
+  height: 330px;
+  /*border-radius: 3px;*/
+  /*background-color: white;*/
+  position: absolute; top:50%; left: 50%;
+  /*box-shadow: 0px 0px 3px #e2af49;*/
+  margin:-165px 0px 0px -200px;
+  padding: 0 48px;
+}
+.loginBox h2 { color: white; font-size: 24px; text-align: center; padding: 24px 0; border-bottom: 1px solid #fff; margin-bottom: 31px; }
+.loginBox .el-row { padding: 9px 48px; }
+.loginBox .el-row .el-input { margin: 0; }
+/*.loginBox .el-row input { height: 38px; line-height: 38px; overflow: hidden; background: url(../images/login/loginIcon.png) no-repeat; padding-left: 32px; transition: all .8s; }*/
+.loginBox .el-row .err input { border-color:#e60012; }
+.loginBox .el-row input[type='password'] { background-position: 7px -42px;}
+.loginBox .el-row input[type='text'] { background-position: 12px 8px;}
+.loginBox .remember .el-checkbox__label{ font-size: 12px; color: #666666; }
+
+.loginBox .el-row .forget { text-align: right; }
+.loginBox .el-row .forget a { font-size: 12px; color: #666666;}
+.loginBox .el-row .forget a:hover { color: #20a0ff;}
+
+.loginBox .loginBtn {padding-top: 0;}
+.loginBox .loginBtn .is-loading { background: #000!important; }
+.loginBox .loginBtn .el-button { background-color: #38404d;  text-align: center; font-weight: 600; width: 100%; font-size: 16px; height: 38px; line-height: 38px; padding: 0; border:none; }
+.loginBox .loginBtn .el-button span { color: #e2af49; font-size: 14px;}
+.loginBox .loginBtn .el-button:hover {border:none; background: #414b5c;}
+
+.loginBox .linkToReg { text-align: right; padding-top: 0; color: #666666; padding-right:47px; }
+.loginBox .linkToReg a { color: #f77e1c; }
+.loginBox .rules { text-align: left; font-size: 12px; color: #e60012; }
+
+::-webkit-input-placeholder { color:#b4b4b4!important}
+:-moz-placeholder { color:#b4b4b4!important;}
+::-moz-placeholder { color:#b4b4b4!important;}
+:-ms-input-placeholder { color:#b4b4b4!important;}
+
+/* 修改登录  （袁雪娇）*/
+/*.loginBox .el-form{padding:0px 48px;}*/
+.loginBox .el-form .el-input input{padding-left:35px;}
+/*.loginBox .el-icon-user{ background: url(../images/login/loginIcon.png) no-repeat; background-position: 13px 8px; left:0px;}*/
+/*.loginBox .el-icon-pwd{ background: url(../images/login/loginIcon.png) no-repeat;     background-position: 9px -42px; left: 0px; }*/
+.loginBox .agreement .el-checkbox-group{display: inline-block;}
+.loginBox .agreement .forget{float: right;}
+.loginBox .agreement .forget a{font-size: 12px;  color: #666666;}
+.btnClass1 span{color:white!important;}
