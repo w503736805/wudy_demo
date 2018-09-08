@@ -2,7 +2,7 @@
   "name": "vue_vux",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "wudy <wudy@langxiong.com>",
+  "author": "wudy <w",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
