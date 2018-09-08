@@ -11,26 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     // proxyTable: {},
-    // proxyTable: {
-    //   '/lx_p2p_back': {
-    //     // target: 'http://47.93.63.11:8081/lx_p2p_back',
-    //     target: 'http://172.16.10.27:8081/lx_p2p_back',
-    //     changeOrgin: true,
-    //     pathRewrite: {
-    //       '^/lx_p2p_back' : ''
-    //     }
-    //   }
-    // },
-    proxyTable: {
-      '/lx_p2p_api': {
-        target: 'http://47.93.63.11:8080/lx_p2p_api',
-        // target: 'http://172.16.10.81:8086/lx_p2p_api',
-        changeOrgin: true,
-        pathRewrite: {
-          '^/lx_p2p_api' : ''
-        }
-      }
-    },
+    
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
